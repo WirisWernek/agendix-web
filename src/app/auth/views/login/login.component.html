@@ -1,0 +1,23 @@
+<div class="content d-flex justify-content-center align-items-center">
+   <section class="w-50 h-100 d-flex justify-content-center align-items-center flex-column">
+      <h3 class="text-center fonte-branca fs-1 mb-5">Bem Vindo<br />de Volta!</h3>
+      <form action="" class="w-75">
+         <div class="mb-3">
+            <label for="inputLogin" class="form-label">Login</label>
+            <input type="email" class="form-control input" id="inputLogin" placeholder="name@example.com" />
+         </div>
+         <div class="mb-3">
+            <label for="inputSenha" class="form-label">Senha</label>
+            <input type="password" class="form-control input" id="inputSenha" placeholder="**********" />
+         </div>
+      </form>
+      <div class="w-75">
+         <a href="">Esqueceu sua senha?</a>
+         <p class="fonte-branca">Não tem uma conta? <a [routerLink]="['/auth/register']">Cadastre-se</a></p>
+      </div>
+      <button class="btn btn-primary rounded-pill mt-2 py-2 px-5">Entrar</button>
+   </section>
+   <section class="w-50 h-100 d-flex justify-content-center align-items-center">
+      <object data="/images/imagem-1.svg" aria-details="Uma ilustração apontando em um quadro" width="400" height="400"></object>
+   </section>
+</div>

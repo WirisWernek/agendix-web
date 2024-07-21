@@ -16,7 +16,7 @@ export const routes: Routes = [
       import('./prestador/prestador.routes').then((r) => r.PRESTADOR_ROUTES),
   },
   {
-    path: 'admin',
+    path: 'administrador',
     loadChildren: () =>
       import('./admin/admin.routes').then((r) => r.ADMIN_ROUTES),
   },

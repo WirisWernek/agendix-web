@@ -1,0 +1,42 @@
+@import 'colors.scss';
+
+.btn-primary {
+   background-color: $rosa-fosco;
+   border: $rosa-fosco;
+   &:hover {
+      background-color: $rosa;
+      border: $rosa;
+   }
+}
+.btn-secondary {
+   background-color: $azul-fosco;
+   border: $azul-fosco;
+   &:hover {
+      background-color: $azul;
+      border: $azul;
+   }
+}
+.btn-danger {
+   background-color: $vermelho-fosco;
+   border: $vermelho-fosco;
+   &:hover {
+      background-color: $vermelho;
+      border: $vermelho;
+   }
+}
+.btn-warning {
+   background-color: $amarelo-fosco;
+   border: $amarelo-fosco;
+   &:hover {
+      background-color: $amarelo;
+      border: $amarelo;
+   }
+}
+.btn-success {
+   background-color: $verde-fosco;
+   border: $verde-fosco;
+   &:hover {
+      background-color: $verde;
+      border: $verde;
+   }
+}

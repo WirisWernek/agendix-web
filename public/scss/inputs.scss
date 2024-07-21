@@ -1,0 +1,12 @@
+@import 'colors.scss';
+
+.input {
+   border-radius: 15px;
+   border: 1px solid $borda;
+   background-color: $background-input  !important;
+}
+
+.form-label{
+	color: $branco;
+	margin-bottom: 0 !important;
+}

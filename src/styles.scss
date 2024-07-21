@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}

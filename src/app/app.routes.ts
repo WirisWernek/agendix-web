@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { LayoutComponent } from './shared/components/layout/layout.component';
 
 export const routes: Routes = [
   {
@@ -12,6 +13,7 @@ export const routes: Routes = [
   },
   {
     path: 'prestador',
+	component: LayoutComponent,
     loadChildren: () =>
       import('./prestador/prestador.routes').then((r) => r.PRESTADOR_ROUTES),
   },

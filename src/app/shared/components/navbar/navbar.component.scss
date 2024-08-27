@@ -1,0 +1,57 @@
+:root {
+   --text-color-primary: #ffffff;
+}
+
+h1 {
+   font-size: 1.8rem;
+}
+ul {
+   list-style-type: none;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+li {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   gap: 2rem;
+   transition: all 1.2s;
+   & > span {
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--text-color-primary);
+   }
+   & > i {
+      font-size: 2rem;
+   }
+   &:hover,
+   :focus {
+      transform: scale(1.025);
+   }
+}
+.username {
+   font-size: large;
+}
+.user-details > *:hover {
+   cursor: pointer;
+}
+.navbar {
+   background-color: #ffffff0f !important;
+   .navbar-brand {
+      color: #ffffff !important;
+   }
+}
+
+.menu{
+	color:#ffffff8c !important;
+}
+
+@media (max-width: 700px) {
+   h1 {
+      font-size: 1.5rem;
+   }
+   button > i {
+      font-size: 2rem;
+   }
+}

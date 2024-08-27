@@ -1,0 +1,21 @@
+<div class="content d-flex justify-content-center align-items-center gap-3">
+   <div class="w-100 d-flex justify-content-center pt-2">
+      <h3 class="text-center fonte-branca fs-1">Comunicação com os clientes</h3>
+   </div>
+   <div class="w-100 d-flex justify-content-end pe-5">
+      <button class="btn btn-success rounded-pill mt-2 py-2 px-5" (click)="novoEnvio()">Novo</button>
+   </div>
+   <div class="h-100 w-100 px-5">
+      <table class="w-100">
+         <tbody class="w-100">
+            @for (item of [1,2,3,4,5,6,7]; track $index) {
+            <tr class="w-100">
+               <td>Promoção</td>
+               <td>80</td>
+               <td>01/02/2023</td>
+            </tr>
+            }
+         </tbody>
+      </table>
+   </div>
+</div>

@@ -1,0 +1,29 @@
+:host {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+ .content {
+	width: 60%;
+	height: 70%;
+	min-height: 600px;
+	flex-direction: column;
+ }
+ 
+ .content > section:nth-child(1) {
+	border-right: 1px #a3a3a3 solid;
+ }
+ 
+ @media (max-width: 600px) {
+	.content {
+	   width: 95%;
+	}
+	.content > section:nth-child(1) {
+	   border-right: none;
+	   width: 100% !important;
+	}
+	.content > section:nth-child(2) {
+	   display: none !important;
+	}
+ }
+ 

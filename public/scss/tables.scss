@@ -1,0 +1,42 @@
+@import 'colors.scss';
+
+$border-radius-table-cell: 10px;
+
+table {
+    border-collapse: separate !important;
+    border-spacing: 0 0.4rem !important;
+}
+
+tr{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: $branco-fosco;
+	padding: 0.6rem 1rem;
+	font-weight: 300;
+	border-radius: $border-radius-table-cell;
+	transition: transform 0.3s;
+	margin-bottom: 0.4rem;
+}
+
+tbody>tr:hover,
+tbody>tr:focus {
+    transform: scale(1.025);
+}
+
+td {
+    border-color: transparent;
+	text-align: center;
+	vertical-align: middle;
+}
+
+th {
+    background-color: #4b5876 !important;
+    color: white !important;
+}
+
+thead {
+    tr {
+        border-radius: $border-radius-table-cell;
+    }
+}

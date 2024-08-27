@@ -1,0 +1,26 @@
+<div class="modal-header">
+   <h4 class="modal-title text-center">{{ title }}</h4>
+</div>
+<div class="modal-body">
+   <form action="" class="px-5">
+      <div class="mb-3">
+         <label for="tipoInput" class="form-label">Tipo</label>
+         <select class="form-select" id="tipoInput">
+            <option selected>Tipo do link</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+         </select>
+      </div>
+      <div class="mb-3">
+         <label for="linkInput" class="form-label">Link</label>
+         <input type="text" class="form-control" id="linkInput" />
+      </div>
+   </form>
+</div>
+<div class="modal-footer d-flex justify-content-center align-items-center">
+   <button type="button" class="btn btn-primary rounded-pill mt-2 py-2 px-5" (click)="activeModal.close('Close click')">Voltar</button>
+   <button type="button" class="btn btn-warning rounded-pill mt-2 py-2 px-5 text-white" (click)="activeModal.close('Close click')">Editar</button>
+   <button type="button" class="btn btn-success rounded-pill mt-2 py-2 px-5" (click)="activeModal.close('Close click')">Salvar</button>
+   <button type="button" class="btn btn-danger rounded-pill mt-2 py-2 px-5" (click)="activeModal.close('Close click')">Excluir</button>
+</div>
